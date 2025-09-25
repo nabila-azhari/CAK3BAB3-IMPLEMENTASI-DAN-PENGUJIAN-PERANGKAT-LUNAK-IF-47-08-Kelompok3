@@ -5,22 +5,123 @@ body {
   min-height: 100vh;
 }
 
+/* Header Simple */
+.header-simple {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  background: #ecf0f3cc;
+  box-shadow: 0 4px 12px #d7dae7bb;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 12px;
+}
+
+.kelompok-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #23319c;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 4px #cbd4e9;
+}
+
+/* Hero Section as morph background */
+.hero-section {
+  position: relative;
+  height: 320px;
+  max-width: 100vw;
+  margin: 32px auto 48px auto;
+  border-radius: 28px;
+  box-shadow: -12px -12px 36px #fff, 12px 12px 36px #d1d5dc;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/all.jpg') no-repeat center center/cover;
+  filter: brightness(0.55);
+  border-radius: 28px;
+  z-index: 1;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #f0f4fa;
+  text-shadow:
+    3px 3px 6px rgba(0,0,0,0.7),
+    -3px -3px 6px rgba(255,255,255,0.2);
+  font-weight: 700;
+  width: 90%;
+  max-width: 840px;
+}
+
+.hero-text h1 {
+  font-size: 2.7rem;
+  margin: 0 0 8px 0;
+  letter-spacing: 3px;
+}
+
+.hero-text h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero-text hr {
+  width: 90px;
+  height: 3px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #bbc1ff 0%, #7983ff 100%);
+  margin: 0 auto 22px auto;
+  box-shadow:
+    0 0 10px #93a0ffaa,
+    inset 0 0 8px #6976ff70;
+}
+
+.hero-text p {
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: #cbd1eedd;
+}
+
+/* Profil Mahasiswa heading */
 h1 {
   text-align: center;
-  margin-top: 32px;
+  margin-top: 0;
   color: #31344b;
   font-weight: 700;
   letter-spacing: 2px;
   text-shadow: 1px 2px 4px #ffffff44;
+  margin-bottom: 40px;
 }
 
 .profile-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 32px;
-  padding: 40px 5vw;
+  padding: 0 5vw 40px 5vw;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 60px auto;
 }
 
 .card {
@@ -83,7 +184,8 @@ h1 {
   gap: 9px;
 }
 
-.skill, .hobby {
+.skill,
+.hobby {
   background: #ecf0f3;
   box-shadow: 2px 2px 8px #d1d5dc, -2px -2px 8px #ffffff;
   border-radius: 9px;
@@ -103,7 +205,16 @@ h1 {
 @media (max-width: 700px) {
   .profile-grid {
     grid-template-columns: 1fr;
-    padding: 10px;
+    padding: 0 10px 40px 10px;
     gap: 16px;
+  }
+  .hero-text h1 {
+    font-size: 1.9rem;
+  }
+  .hero-text h3 {
+    font-size: 1.1rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
   }
 }
