@@ -27,11 +27,11 @@ Audit dilakukan terhadap Issue, Pull Request, dan Commit yang dibuat oleh Progra
 ## Tabel Hasil Audit
 | No | Issue ID | PR ID | Programmer | Configuration Manager | Status     | Catatan                       |
 |----|----------|-------|------------|-----------------------|------------|-------------------------------|
-| 1  | #1       |     | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai     | Commit rapi dan terkait Issue |
+| 1  | #1       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai     | Commit rapi dan terkait Issue |
 | 2  | #2       |     | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai| |
-| 3  | #3       |     | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai     | Commit rapi dan terkait Issue |
+| 3  | #3       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai     | Commit rapi dan terkait Issue |
 | 4  | #4       |     | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai| |
-| 5  | #5       |     | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai     | Commit rapi dan terkait Issue |
+| 5  | #5       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai     | Commit rapi dan terkait Issue |
 | 6  |          |     | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai| |
 
 ## Temuan Utama
