@@ -134,8 +134,9 @@ CAK3BAB3 – IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK – IF-47-08 – Kelompo
 - [PR #7 – Menambahkan nama kelompok 3 di index.html, Menambahkan daftar hobi halaman utama, dan ](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/pull/7)
 
 ## 3. Screenshot Merge (Configuration Manager)
-- [Screenshot Merge PR #7](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/Asets/Merged 1.png)
-- [Screenshot Merge PR #8](link-gambar)
+- [Screenshot Merge PR #7](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/blob/Nayubi/Merge%20PR%20%237.png)
+- [Screenshot Merge PR #8](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/blob/Nayubi/Merge%20PR%20%238.png)
+- [Screenshot Merge PR #9](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/blob/Nayubi/Merge%20PR%20%239.png)
 
 ## 4. Laporan Audit (Auditor)
 - [Audit Report Kelompok 3](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/blob/Nayubi/ReadMe.md)
