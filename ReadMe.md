@@ -138,7 +138,7 @@ CAK3BAB3 – IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK – IF-47-08 – Kelompo
 - [Screenshot Merge PR #8](link-gambar)
 
 ## 4. Laporan Audit (Auditor)
-- [Audit Report Kelompok 3](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/blob/main/Laporan_Audit)
+- [Audit Report Kelompok 3]([https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/blob/main/Laporan_Audit](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/blob/Nayubi/ReadMe.md))
 
 ---
 
