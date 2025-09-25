@@ -97,17 +97,17 @@ Audit dilakukan terhadap Issue, Pull Request, dan Commit yang dibuat oleh Progra
 ## Tabel Hasil Audit
 | No | Issue ID | PR ID | Programmer | Configuration Manager | Status     | Catatan                       |
 |----|----------|-------|------------|-----------------------|------------|-------------------------------|
-| 1  | #1       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan tanpa Issue |
-| 2  | #2       |     | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan tanpa Issue | 
+| 1  | #1       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait Issue |
+| 2  | #2       |    #8 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait Issue | 
 | 3  | #3       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait Issue |
-| 4  | #4       |     | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan tanpa Issue |
+| 4  | #4       |    #8 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait Issue |
 | 5  | #5       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait Issue |
-| 6  |          |     | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan tanpa Issue |
+| 6  |          |     | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait Issue |
 
 ## Temuan Utama
 - Jumlah Issue dibuat: 5
-- Jumlah PR di-merge: Y
-- Jumlah pelanggaran: Z
+- Jumlah PR di-merge: 5
+- Jumlah pelanggaran: 0
 - Kualitas commit message: Baik/Sedang/Buruk
 
 ## Rekomendasi
