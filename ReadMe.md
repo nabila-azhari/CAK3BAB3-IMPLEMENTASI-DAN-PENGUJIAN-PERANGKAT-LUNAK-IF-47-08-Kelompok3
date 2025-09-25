@@ -1,4 +1,4 @@
-# CAK3BAB3 – IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK – IF-47-08 – KelompokX
+# CAK3BAB3 – IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK – IF-47-08 – Kelompok3
 
 ## Deskripsi
 Repository ini digunakan untuk simulasi kolaborasi GitHub dalam mata kuliah **RPL – Implementasi dan Pengujian Perangkat Lunak (CAK3BAB3)**.  
@@ -87,7 +87,10 @@ CAK3BAB3 – IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK – IF-47-08 – Kelompo
 2. Bill Stephen / 103012330197 / Kelompok 3
 
 -CM: 
+
 1.Fathan Arya Maulana / 103012300083 / Kelompok 3
+
+
 
 Repo: https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3.git
 
@@ -97,18 +100,17 @@ Audit dilakukan terhadap Issue, Pull Request, dan Commit yang dibuat oleh Progra
 ## Tabel Hasil Audit
 | No | Issue ID | PR ID | Programmer | Configuration Manager | Status     | Catatan                       |
 |----|----------|-------|------------|-----------------------|------------|-------------------------------|
-| 1  | #1       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait Issue |
-| 2  | #2       |    #8 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait Issue | 
-| 3  | #3       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait Issue |
-| 4  | #4       |    #8 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait Issue |
-| 5  | #5       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait Issue |
-| 6  |          |     | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait Issue |
+| 1  | #1       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue |
+| 2  | #2       |    #8 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue | 
+| 3  | #3       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue |
+| 4  | #4       |    #9 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue |
+| 5  | #5       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue |
 
 ## Temuan Utama
 - Jumlah Issue dibuat: 5
-- Jumlah PR di-merge: 5
+- Jumlah PR di-merge: 3
 - Jumlah pelanggaran: 0
-- Kualitas commit message: Baik/Sedang/Buruk
+- Kualitas commit message: Baik
 
 ## Rekomendasi
 - Pastikan setiap PR selalu terkait Issue.
@@ -119,7 +121,7 @@ Audit dilakukan terhadap Issue, Pull Request, dan Commit yang dibuat oleh Progra
 
 ## Format Output Akhir
 # Output Akhir Simulasi GitHub
-CAK3BAB3 – IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK – IF-47-08 – KelompokX
+CAK3BAB3 – IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK – IF-47-08 – Kelompok3
 
 ## 1. Link Issue (Customer)
 - [#1 Tambahkan nama kelompok 3 di halaman utama](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/issues/1)
@@ -141,8 +143,8 @@ CAK3BAB3 – IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK – IF-47-08 – Kelompo
 ---
 
 ## Ringkasan Akhir
-- Total Issue dibuat: X
-- Total PR diajukan: Y
-- Total PR di-merge: Z
-- Pelanggaran prosedur: N
-- Rekomendasi Auditor: …
+- Total Issue dibuat: 5
+- Total PR diajukan: 0
+- Total PR di-merge: 3
+- Pelanggaran prosedur: 0
+- Rekomendasi Auditor: Tidak ada sudah mantap
