@@ -1,7 +1,7 @@
 const profiles = [
   {
     nama: "Bill Stephen Jacob Sembiring", kelas: "IF-08", nim: "103012330197", prodi: "S1 Informatika",
-    keahlian: ["Web Dev", "JavaScript", "UI/UX"], hobi: ["Berbisnis", "Design"], img: "https://randomuser.me/api/portraits/men/32.jpg"
+    keahlian: ["Web Dev", "JavaScript", "UI/UX"], hobi: ["Berbisnis", "Design"], img: "hhttps://randomuser.me/api/portraits/women/44.jpg"
   },
   {
     nama: "Muhammad Nayubi Adiva Ramadhan", kelas: "IF-08", nim: "103012300469", prodi: "S1 Informatika",
