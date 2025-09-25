@@ -28,7 +28,63 @@
 
   <main>
     <h1>Profil Mahasiswa</h1>
+  
+  <!-- Tombol Tambah Mahasiswa -->
+  <div class="add-button-container">
+    <button class="add-btn" onclick="openModal()">
+      ➕ Tambah Mahasiswa Baru
+    </button>
+  </div>
+  
     <div class="profile-grid" id="profileGrid"></div>
+  
+  <!-- Modal untuk menambah mahasiswa -->
+  <div id="addModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2>Tambah Mahasiswa Baru</h2>
+      <form id="addForm">
+        <div class="form-group">
+          <label for="nama">Nama Lengkap:</label>
+          <input type="text" id="nama" name="nama" required>
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nim">NIM:</label>
+            <input type="text" id="nim" name="nim" required>
+          </div>
+          <div class="form-group">
+            <label for="kelas">Kelas:</label>
+            <input type="text" id="kelas" name="kelas" required>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="prodi">Program Studi:</label>
+          <input type="text" id="prodi" name="prodi" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="keahlian">Keahlian (pisahkan dengan koma):</label>
+          <input type="text" id="keahlian" name="keahlian" placeholder="Contoh: Web Dev, JavaScript, Python">
+        </div>
+        
+        <div class="form-group">
+          <label for="hobi">Hobi (pisahkan dengan koma):</label>
+          <input type="text" id="hobi" name="hobi" placeholder="Contoh: Membaca, Gaming, Fotografi">
+        </div>
+        
+        <div class="form-group">
+          <label for="foto">URL Foto (opsional):</label>
+          <input type="url" id="foto" name="foto" placeholder="https://example.com/foto.jpg">
+        </div>
+        
+        <button type="submit" class="submit-btn">Tambah Mahasiswa</button>
+      </form>
+    </div>
+  </div>
+  
   </main>
 
   <script src="script.js"></script>
