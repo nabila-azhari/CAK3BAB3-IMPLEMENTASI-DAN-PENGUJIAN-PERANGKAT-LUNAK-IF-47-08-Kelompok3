@@ -110,8 +110,8 @@ Audit dilakukan terhadap Issue, Pull Request, dan Commit yang dibuat oleh Progra
 
 ## Temuan Utama
 - Jumlah Issue dibuat: 8
-- Jumlah PR di-merge: 8
-- Jumlah pelanggaran: 2
+- Jumlah PR di-merge: 4
+- Jumlah pelanggaran: 1
 - Kualitas commit message: Cukup Baik
 
 ## Rekomendasi
@@ -149,6 +149,6 @@ CAK3BAB3 – IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK – IF-47-08 – Kelompo
 ## Ringkasan Akhir
 - Total Issue dibuat: 8
 - Total PR diajukan: 0
-- Total PR di-merge: 8
-- Pelanggaran prosedur: 2
+- Total PR di-merge: 4
+- Pelanggaran prosedur: 1
 - Rekomendasi Auditor: 1 PR lebih baik fokus ke 1 Issue, Semuanya baik dan mantap.
