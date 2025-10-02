@@ -100,18 +100,19 @@ Audit dilakukan terhadap Issue, Pull Request, dan Commit yang dibuat oleh Progra
 ## Tabel Hasil Audit
 | No | Issue ID | PR ID | Programmer | Configuration Manager | Status     | Catatan                       |
 |----|----------|-------|------------|-----------------------|------------|-------------------------------|
-| 1  | #1       |   #6 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Tidak ada format pull request, tidak ada summary tentang penjelasana apa yang dilakukan |
+| 1  | #1       |   #6 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Tolak | Tidak ada format pull request, tidak ada summary tentang penjelasana apa yang dilakukan |
 | 2  | #1       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Pull sudah sesuai dengan format, 3 Issue sudah di selesaikan dalam 1 kali pull request. syarat permintaan (Issue) yang diberikan pada kodingan sudah sesuai dengan issue yang ada. |
 | 3  | #2       |    #8 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | Tidak ada conflict, issue 2 sudah diselesaikan. | 
-| 4  | #4       |    #9 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue |
-| 5  | #5       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue |
-| 6  | #12, #13, #14      |   #15 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | 3 issue tambahan sudah diselesaikan dan sudah tidak ada conflict |
+| 4  | #3       |    #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue. | 
+| 5  | #4       |    #9 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue |
+| 6  | #5       |   #7 | Nevan Nabiil Firmansyah Har | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue |
+| 7  | #12, #13, #14      |   #15 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | 3 issue tambahan sudah diselesaikan dan sudah tidak ada conflict |
 
 ## Temuan Utama
-- Jumlah Issue dibuat: 5
-- Jumlah PR di-merge: 3
-- Jumlah pelanggaran: 0
-- Kualitas commit message: Baik
+- Jumlah Issue dibuat: 8
+- Jumlah PR di-merge: 8
+- Jumlah pelanggaran: 2
+- Kualitas commit message: Cukup Baik
 
 ## Rekomendasi
 - Pastikan setiap PR selalu terkait Issue.
@@ -146,8 +147,8 @@ CAK3BAB3 – IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK – IF-47-08 – Kelompo
 ---
 
 ## Ringkasan Akhir
-- Total Issue dibuat: 5
+- Total Issue dibuat: 8
 - Total PR diajukan: 0
-- Total PR di-merge: 3
-- Pelanggaran prosedur: 0
-- Rekomendasi Auditor: Tidak ada sudah mantap
+- Total PR di-merge: 8
+- Pelanggaran prosedur: 2
+- Rekomendasi Auditor: 1 PR lebih baik fokus ke 1 Issue
