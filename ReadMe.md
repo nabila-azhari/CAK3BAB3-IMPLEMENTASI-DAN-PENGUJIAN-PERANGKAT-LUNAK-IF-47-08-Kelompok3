@@ -100,11 +100,12 @@ Audit dilakukan terhadap Issue, Pull Request, dan Commit yang dibuat oleh Progra
 ## Tabel Hasil Audit
 | No | Issue ID | PR ID | Programmer | Configuration Manager | Status     | Catatan                       |
 |----|----------|-------|------------|-----------------------|------------|-------------------------------|
-| 1  | #1       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue |
-| 2  | #2       |    #8 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue | 
-| 3  | #3       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue |
+| 1  | #1       |   #6 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Tidak ada format pull request, tidak ada summary tentang penjelasana apa yang dilakukan |
+| 2  | #1       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Pull sudah sesuai dengan format, 3 Issue sudah di selesaikan dalam 1 kali pull request. syarat permintaan (Issue) yang diberikan pada kodingan sudah sesuai dengan issue yang ada. |
+| 3  | #2       |    #8 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | Tidak ada conflict, issue 2 sudah diselesaikan. | 
 | 4  | #4       |    #9 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue |
 | 5  | #5       |   #7 | Yolanda Rahma Chrysti | Fathan Arya Maulana                   | Sesuai | Commit rapi dan terkait dengan Issue |
+| 6  | #12, #13, #14      |   #15 | Nabila Putri Azhari | Fathan Arya Maulana                   | Sesuai | 3 issue tambahan sudah diselesaikan dan sudah tidak ada conflict |
 
 ## Temuan Utama
 - Jumlah Issue dibuat: 5
@@ -137,6 +138,7 @@ CAK3BAB3 – IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK – IF-47-08 – Kelompo
 - [Screenshot Merge PR #7](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/blob/Nayubi/Merge%20PR%20%237.png)
 - [Screenshot Merge PR #8](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/blob/Nayubi/Merge%20PR%20%238.png)
 - [Screenshot Merge PR #9](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/blob/Nayubi/Merge%20PR%20%239.png)
+- [Screenshot Merge PR #15](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/blob/Nayubi/Fiksasi%20desain%20dan%20pengoptimalan%20fitur.jpeg)
 
 ## 4. Laporan Audit (Auditor)
 - [Audit Report Kelompok 3](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/blob/Nayubi/ReadMe.md)
