@@ -1,31 +1,144 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Profil Mahasiswa</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="header-simple">
-    <img src="images/logo.png" alt="Logo Kelompok" class="logo" />
-    <div class="kelompok-title">Kelompok 3</div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Profil Mahasiswa</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="dark-mode">
+    <header class="header-simple">
+      <a href="index.html"> </a>
+      <div class="header-controls">
+        <div class="kelompok-title">Kelompok 3</div>
+        <button id="mode-toggle" onclick="toggleDarkMode()">
+          ☀️ Light Mode
+        </button>
+      </div>
+    </header>
 
-  <section class="hero-section">
-    <div class="hero-background"></div>
-    <div class="hero-text">
-      <h1>IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK</h1>
-      <h3>Week 2</h3>
-      <hr>
-      <p>
-        Proyek Tugas Besar Mata Kuliah IMPL (Implementasi dan Pemrograman Lanjut) <br>
-        Membuat aplikasi “Profil Mahasiswa” berbasis web dengan desain morphism modern. <br>
-        Semua source code dikelola secara kolaboratif melalui repository GitHub.
-      </p>
+    <section class="hero-section">
+      <div class="hero-text">
+        <h1>IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK</h1>
+        <h3>Week 2</h3>
+        <hr />
+        <p>
+          Proyek Tugas Besar Mata Kuliah IMPL (Implementasi dan Pemrograman
+          Lanjut) <br />
+          Membuat aplikasi “Profil Mahasiswa” berbasis web dengan desain modern
+          futuristik. <br />
+          Semua source code dikelola secara kolaboratif melalui repository
+          GitHub.
+        </p>
+      </div>
+    </section>
+
+    <main>
+      <h1>Profil Mahasiswa</h1>
+
+      <div class="add-button-container">
+        <button class="add-btn" onclick="openModal()">+ Tambah Anggota</button>
+      </div>
+
+      <div class="profile-grid" id="profileGrid"></div>
+    </main>
+
+    <footer class="main-footer">
+      <img src="images/all.jpg" alt="Foto Tim Kelompok 3" class="team-photo" />
+
+      <div class="footer-content">
+        <p class="footer-text">Proyek Tugas Besar IMPL 2024</p>
+        <a
+          href="https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3.git"
+          target="_blank"
+          class="github-link"
+        >
+          Lihat Repository di GitHub
+        </a>
+      </div>
+    </footer>
+    <div id="addModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Tambah Mahasiswa Baru</h2>
+        <form id="addForm">
+          <div class="form-group">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nim">NIM:</label>
+              <input type="text" id="nim" name="nim" required />
+            </div>
+            <div class="form-group">
+              <label for="kelas">Kelas:</label>
+              <input type="text" id="kelas" name="kelas" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="prodi">Program Studi:</label>
+            <input type="text" id="prodi" name="prodi" required />
+          </div>
+
+          <div class="form-group">
+            <label for="keahlian">Keahlian (pisahkan dengan koma):</label>
+            <input
+              type="text"
+              id="keahlian"
+              name="keahlian"
+              placeholder="Contoh: Web Dev, JavaScript, Python"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="hobi">Hobi (pisahkan dengan koma):</label>
+            <input
+              type="text"
+              id="hobi"
+              name="hobi"
+              placeholder="Contoh: Membaca, Gaming, Fotografi"
+            />
+          </div>
+
+          <div class="form-group file-upload-group">
+            <label for="foto">Upload Foto Profil (Opsional):</label>
+            <input
+              type="file"
+              id="foto"
+              name="foto"
+              accept="image/*"
+              onchange="previewImage(event)"
+            />
+            <img
+              id="image-preview"
+              src=""
+              alt="Pratinjau Foto"
+              style="
+                display: none;
+                max-width: 100px;
+                max-height: 100px;
+                margin-top: 10px;
+                border-radius: 50%;
+              "
+            />
+          </div>
+
+          <button type="submit" class="submit-btn">Tambah Mahasiswa</button>
+        </form>
+      </div>
     </div>
-  </section>
 
+    <script src="script.js"></script>
+  </body>
+</html>
+=======
   <main>
     <h1>Profil Mahasiswa</h1>
   
@@ -84,9 +197,3 @@
       </form>
     </div>
   </div>
-  
-  </main>
-
-  <script src="script.js"></script>
-</body>
-</html>
