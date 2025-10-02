@@ -151,4 +151,4 @@ CAK3BAB3 – IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK – IF-47-08 – Kelompo
 - Total PR diajukan: 0
 - Total PR di-merge: 8
 - Pelanggaran prosedur: 2
-- Rekomendasi Auditor: 1 PR lebih baik fokus ke 1 Issue
+- Rekomendasi Auditor: 1 PR lebih baik fokus ke 1 Issue, Semuanya baik dan mantap.
