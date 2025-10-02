@@ -129,6 +129,9 @@ CAK3BAB3 – IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK – IF-47-08 – Kelompo
 - [#3 Membuat daftar Hobi Anggota Halaman Utama](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/issues/3)
 - [#4 Menambahkan anggota baru](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/issues/4)
 - [#5 Menampilkan NIM dan Prodi dari Anggota di Halaman Utama](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/issues/5)
+- [#6 Fitur Tambah Anggota yang Lebih Optimal dengan Memasukkan Foto Anggota](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/issues/14)
+- [#7 Tampilan Desain Lebih Interaktif](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/issues/13)
+- [#8 Merancang Fitur Light/Dark Mode](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/issues/12)
 
 ## 2. Link Pull Request (Programmer)
 - [PR #7 – Menambahkan nama kelompok 3 di index.html, Menambahkan daftar hobi halaman utama, dan ](https://github.com/nabila-azhari/CAK3BAB3-IMPLEMENTASI-DAN-PENGUJIAN-PERANGKAT-LUNAK-IF-47-08-Kelompok3/pull/7)
