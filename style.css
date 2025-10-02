@@ -1,20 +1,36 @@
+/* Variabel Warna untuk memudahkan penggantian mode */
+:root {
+  /* DARK MODE DEFAULTS */
+  --color-bg-dark: #0a0a0a;
+  --color-bg-light-surface: #1e1e1e;
+  --color-text-primary: #e0e0e0;
+  --color-text-secondary: #ccc;
+  --color-cyan: #00f0ff; /* Warna aksen utama */
+  --color-purple: #7b4397; /* Warna aksen kedua */
+
+  /* LIGHT MODE */
+  --color-bg-light: #f0f0f5;
+  --color-text-dark: #333;
+}
+
 /* === GENERAL === */
 body {
   font-family: "Poppins", sans-serif;
-  background: #0a0a0a;
-  color: #e0e0e0;
+  background: var(--color-bg-dark);
+  color: var(--color-text-primary);
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   transition: background 0.3s, color 0.3s; /* Transisi untuk mode */
 }
 
+/* --- HEADER --- */
 header.header-simple {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px 32px;
-  background: #1e1e1e;
+  background: var(--color-bg-light-surface);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
   transition: background 0.3s, box-shadow 0.3s;
 }
@@ -32,7 +48,7 @@ header.header-simple {
 
 /* --- TOGGLE BUTTON --- */
 #mode-toggle {
-  background: #00f0ff;
+  background: var(--color-cyan);
   color: #151515;
   border: none;
   padding: 8px 15px;
@@ -44,7 +60,7 @@ header.header-simple {
 }
 
 #mode-toggle:hover {
-  background: #7b4397;
+  background: var(--color-purple);
   color: #fff;
   box-shadow: 0 0 10px rgba(123, 67, 151, 0.6);
 }
@@ -53,7 +69,7 @@ header.header-simple {
 .hero-section {
   text-align: center;
   padding: 30px 20px;
-  background: linear-gradient(145deg, #181818, #0a0a0a);
+  background: linear-gradient(145deg, #181818, var(--color-bg-dark));
   color: #f5f5f5;
   box-shadow: 0 5px 20px rgba(0, 240, 255, 0.05);
   transition: background 0.3s, box-shadow 0.3s;
@@ -66,7 +82,7 @@ header.header-simple {
 }
 
 .hero-text h3 {
-  color: #ccc;
+  color: var(--color-text-secondary);
   margin-bottom: 10px;
 }
 
@@ -81,7 +97,7 @@ main {
   padding: 20px 30px;
 }
 
-/* --- JUDUL UTAMA --- */
+/* --- JUDUL UTAMA (Mengambil styling futuristik dari 'bila') --- */
 main h1 {
   text-align: center;
   font-size: 2.5rem;
@@ -91,7 +107,7 @@ main h1 {
   transition: color 0.3s, text-shadow 0.3s;
 }
 
-/* --- Tombol Tambah Mahasiswa --- */
+/* --- Tombol Tambah Mahasiswa (Mengambil styling futuristik dari 'bila') --- */
 .add-button-container {
   text-align: center;
   margin: 20px 0 40px;
@@ -99,23 +115,23 @@ main h1 {
 
 .add-btn {
   background: #151515;
-  border: 1px solid #00f0ff;
+  border: 1px solid var(--color-cyan);
   border-radius: 50px;
   padding: 12px 25px;
   font-size: 1em;
   font-weight: 600;
-  color: #00f0ff;
+  color: var(--color-cyan);
   cursor: pointer;
-  box-shadow: 0 0 5px #00f0ff, 0 0 15px rgba(0, 240, 255, 0.4);
+  box-shadow: 0 0 5px var(--color-cyan), 0 0 15px rgba(0, 240, 255, 0.4);
   transition: all 0.3s;
   letter-spacing: 1px;
   position: relative;
 }
 
 .add-btn:hover {
-  background: #00f0ff;
+  background: var(--color-cyan);
   color: #151515;
-  box-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+  box-shadow: 0 0 10px var(--color-cyan), 0 0 20px var(--color-cyan);
 }
 
 /* --- GRID --- */
@@ -173,7 +189,7 @@ main h1 {
 .flip-card:hover .flip-card-back {
   transform: scale(1.02);
   box-shadow: 0 0 15px rgba(0, 240, 255, 0.4), 0 0 30px rgba(123, 67, 151, 0.3);
-  border: 1px solid #00f0ff;
+  border: 1px solid var(--color-cyan);
 }
 
 /* --- FRONT --- */
@@ -186,14 +202,14 @@ main h1 {
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #00f0ff;
+  border: 3px solid var(--color-cyan);
   box-shadow: 0 0 10px rgba(0, 240, 255, 0.4);
   margin-bottom: 10px;
   transition: all 0.3s;
 }
 
 .flip-card:hover .flip-card-front img {
-  border: 3px solid #7b4397;
+  border: 3px solid var(--color-purple);
   box-shadow: 0 0 10px rgba(123, 67, 151, 0.6);
 }
 
@@ -201,7 +217,7 @@ main h1 {
   font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 0;
-  color: #00f0ff;
+  color: var(--color-cyan);
   text-shadow: 0 0 5px rgba(0, 240, 255, 0.5);
   transition: color 0.3s, text-shadow 0.3s;
 }
@@ -241,16 +257,16 @@ main h1 {
 
 .flip-card-back .skill:hover,
 .flip-card-back .hobby:hover {
-  background: #00f0ff;
+  background: var(--color-cyan);
   color: #151515;
   font-weight: 600;
-  box-shadow: 0 0 10px #00f0ff;
+  box-shadow: 0 0 10px var(--color-cyan);
 }
 
 /* --- LABELS --- */
 .label {
   font-weight: 600;
-  color: #7b4397;
+  color: var(--color-purple);
   font-size: 1.1rem;
   margin-right: 8px;
   text-shadow: 0 0 5px rgba(123, 67, 151, 0.7);
@@ -274,7 +290,7 @@ main h1 {
 }
 
 .modal-content {
-  background: #1e1e1e;
+  background: var(--color-bg-light-surface);
   margin: 5% auto;
   padding: 30px;
   border-radius: 20px;
@@ -282,8 +298,8 @@ main h1 {
   max-width: 600px;
   max-height: 85vh;
   overflow-y: auto;
-  box-shadow: 0 0 15px #00f0ff, 0 0 30px #7b4397;
-  border: 1px solid #00f0ff;
+  box-shadow: 0 0 15px var(--color-cyan), 0 0 30px var(--color-purple);
+  border: 1px solid var(--color-cyan);
   position: relative;
   animation: modalAppear 0.3s ease-out;
 }
@@ -305,40 +321,61 @@ main h1 {
 }
 
 .close:hover {
-  color: #00f0ff;
+  color: var(--color-cyan);
 }
 
 .modal h2 {
-  color: #00f0ff;
+  color: var(--color-cyan);
   text-shadow: 0 0 5px rgba(0, 240, 255, 0.7);
 }
 
 /* Form Styling (Dark) */
 .form-group input:not([type="file"]) {
   background: #101010;
-  color: #e0e0e0;
+  color: var(--color-text-primary);
 }
 
 .form-group input:not([type="file"]):focus {
-  border-color: #00f0ff;
-  box-shadow: 0 0 5px #00f0ff;
+  border-color: var(--color-cyan);
+  box-shadow: 0 0 5px var(--color-cyan);
 }
 
 .form-group label {
-  color: #00f0ff;
+  color: var(--color-cyan);
 }
 
 .submit-btn {
   background: #151515;
-  border: 1px solid #7b4397;
-  color: #7b4397;
-  box-shadow: 0 0 10px #7b4397;
+  border: 1px solid var(--color-purple);
+  color: var(--color-purple);
+  box-shadow: 0 0 10px var(--color-purple);
 }
 
 .submit-btn:hover {
-  background: #7b4397;
+  background: var(--color-purple);
   color: #fff;
-  box-shadow: 0 0 15px #7b4397;
+  box-shadow: 0 0 15px var(--color-purple);
+}
+
+/* Layout Form */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  box-sizing: border-box;
 }
 
 /* ---------------------------------------------------- */
@@ -346,8 +383,8 @@ main h1 {
 /* ---------------------------------------------------- */
 
 body.light-mode {
-  background: #f0f0f5;
-  color: #333;
+  background: var(--color-bg-light);
+  color: var(--color-text-dark);
 }
 
 /* --- LIGHT MODE: HEADER & HERO --- */
@@ -357,13 +394,13 @@ body.light-mode header.header-simple {
 }
 
 body.light-mode .hero-section {
-  background: linear-gradient(145deg, #e0e0e5, #f0f0f5);
-  color: #333;
+  background: linear-gradient(145deg, #e0e0e5, var(--color-bg-light));
+  color: var(--color-text-dark);
   box-shadow: none;
 }
 
 body.light-mode main h1 {
-  color: #333;
+  color: var(--color-text-dark);
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -371,7 +408,7 @@ body.light-mode main h1 {
 body.light-mode .flip-card-front,
 body.light-mode .flip-card-back {
   background: #fff;
-  color: #333;
+  color: var(--color-text-dark);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08), -5px -5px 15px #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -379,26 +416,26 @@ body.light-mode .flip-card-back {
 body.light-mode .flip-card:hover .flip-card-front,
 body.light-mode .flip-card:hover .flip-card-back {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-  border: 1px solid #7b4397;
+  border: 1px solid var(--color-purple);
 }
 
 /* Gambar */
 body.light-mode .flip-card-front img {
-  border: 3px solid #7b4397;
+  border: 3px solid var(--color-purple);
   box-shadow: 0 0 5px rgba(123, 67, 151, 0.4);
 }
 body.light-mode .flip-card:hover .flip-card-front img {
-  border: 3px solid #00f0ff;
+  border: 3px solid var(--color-cyan);
   box-shadow: 0 0 5px rgba(0, 240, 255, 0.6);
 }
 
 /* Teks dan Label */
 body.light-mode .flip-card-front .name {
-  color: #1e1e1e;
+  color: var(--color-text-dark);
   text-shadow: none;
 }
 body.light-mode .label {
-  color: #7b4397;
+  color: var(--color-purple);
   text-shadow: none;
 }
 
@@ -411,9 +448,9 @@ body.light-mode .flip-card-back .hobby {
 }
 body.light-mode .flip-card-back .skill:hover,
 body.light-mode .flip-card-back .hobby:hover {
-  background: #00f0ff;
+  background: var(--color-cyan);
   color: #fff;
-  box-shadow: 0 0 8px #00f0ff;
+  box-shadow: 0 0 8px var(--color-cyan);
 }
 
 /* --- LIGHT MODE: MODAL --- */
@@ -423,59 +460,39 @@ body.light-mode .modal-content {
   border: 1px solid #ddd;
 }
 body.light-mode .modal h2 {
-  color: #333;
+  color: var(--color-text-dark);
   text-shadow: none;
 }
 body.light-mode .form-group label {
-  color: #333;
+  color: var(--color-text-dark);
 }
 body.light-mode .form-group input:not([type="file"]) {
   background: #f8f8f8;
-  color: #333;
+  color: var(--color-text-dark);
   box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5px #fff;
   border: 1px solid #ddd;
 }
 body.light-mode .form-group input:not([type="file"]):focus {
-  border-color: #7b4397;
+  border-color: var(--color-purple);
   box-shadow: 0 0 5px rgba(123, 67, 151, 0.4);
 }
 body.light-mode .submit-btn {
   background: #e0e0e5;
-  color: #7b4397;
+  color: var(--color-purple);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px #fff;
 }
 body.light-mode .submit-btn:hover {
-  background: #7b4397;
-  color: #fff;
+  background: var(--color-purple);
+  color: var(--color-bg-light);
 }
 
-/* --- Media Queries --- */
-@media (max-width: 900px) {
-  .profile-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
-@media (max-width: 600px) {
-  .profile-grid {
-    grid-template-columns: 1fr;
-  }
-  .form-row {
-    grid-template-columns: 1fr;
-  }
-  .modal-content {
-    margin: 10% auto;
-    width: 95%;
-    padding: 20px;
-  }
-}
-
-/* --- FOOTER STYLES (BARU) --- */
+/* --- FOOTER STYLES (Diambil dari 'bila') --- */
 .main-footer {
   text-align: center;
   padding: 40px 20px;
   margin-top: 60px;
-  background: #1e1e1e; /* Sedikit lebih terang dari body */
+  background: var(--color-bg-light-surface); /* Sedikit lebih terang dari body */
   border-top: 1px solid #333;
   transition: background 0.3s;
 }
@@ -541,11 +558,23 @@ body.light-mode .main-footer .github-link:hover {
   box-shadow: 0 0 10px rgba(123, 67, 151, 0.4);
 }
 
-/* --- Media Queries (TETAP SAMA) --- */
+/* --- Media Queries --- */
 @media (max-width: 900px) {
-  /* ... */
+  .profile-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 600px) {
-  /* ... */
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  .modal-content {
+    margin: 10% auto;
+    width: 95%;
+    padding: 20px;
+  }
 }

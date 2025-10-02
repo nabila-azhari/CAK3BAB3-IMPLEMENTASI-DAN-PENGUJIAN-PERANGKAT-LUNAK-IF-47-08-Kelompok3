@@ -1,6 +1,7 @@
 // Data profil awal (Hanya akan digunakan jika Local Storage kosong)
 let initialProfiles = [
   {
+    id: 1,
     nama: "Bill Stephen Jacob Sembiring",
     kelas: "IF-08",
     nim: "103012330197",
@@ -10,6 +11,7 @@ let initialProfiles = [
     img: "images/bill.jpg",
   },
   {
+    id: 2,
     nama: "Muhammad Nayubi Adiva Ramadhan",
     kelas: "IF-08",
     nim: "103012300469",
@@ -19,6 +21,7 @@ let initialProfiles = [
     img: "images/nayubi.jpg",
   },
   {
+    id: 3,
     nama: "Fathan Arya Maulana",
     kelas: "IF-08",
     nim: "103012300083",
@@ -28,6 +31,7 @@ let initialProfiles = [
     img: "images/fathan.jpg",
   },
   {
+    id: 4,
     nama: "Nabila Putri Azhari",
     kelas: "IF-08",
     nim: "103012300273",
@@ -37,6 +41,7 @@ let initialProfiles = [
     img: "images/bila.jpg",
   },
   {
+    id: 5,
     nama: "Nevan Nabiil Firmansyah Har",
     kelas: "IF-08",
     nim: "21102455",
@@ -46,6 +51,7 @@ let initialProfiles = [
     img: "images/nevan.jpg",
   },
   {
+    id: 6,
     nama: "Yolanda Rahma Chrysti",
     kelas: "IF-08",
     nim: "103012300150",
@@ -55,6 +61,7 @@ let initialProfiles = [
     img: "images/yola.jpg",
   },
   {
+    id: 7,
     nama: "Dzaky Alfaris",
     kelas: "IF-08",
     nim: "103012300391",
@@ -65,6 +72,7 @@ let initialProfiles = [
   },
 ];
 
+// PENTING: Mengambil data dari Local Storage atau menggunakan data awal
 let profiles = JSON.parse(localStorage.getItem("profiles")) || initialProfiles;
 
 let nextId = 100;
@@ -130,30 +138,30 @@ function renderProfiles() {
     .map(
       (profile) => `
     <div class="flip-card">
-        <div class="flip-card-inner">
-        <div class="flip-card-front">
-            <img src="${profile.img}" alt="${profile.nama}" />
-            <div class="name">${profile.nama}</div>
-        </div>
-        <div class="flip-card-back">
-            <div class="field"><span class="label">Prodi:</span> ${
-              profile.prodi
-            }</div>
-            <div class="field"><span class="label">NIM:</span> ${
-              profile.nim
-            }</div>
-            <div class="field"><span class="label">Kelas:</span> ${
-              profile.kelas
-            }</div>
-            
-            <div class="field"><span class="label">Keahlian:</span> ${profile.keahlian
-              .map((k) => `<span class="skill">${k}</span>`)
-              .join("")}</div>
-            <div class="field"><span class="label">Hobi:</span> ${profile.hobi
-              .map((h) => `<span class="hobby">${h}</span>`)
-              .join("")}</div>
-        </div>
-        </div>
+      <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="${profile.img}" alt="${profile.nama}" />
+        <div class="name">${profile.nama}</div>
+      </div>
+      <div class="flip-card-back">
+        <div class="field"><span class="label">Prodi:</span> ${
+          profile.prodi
+        }</div>
+        <div class="field"><span class="label">NIM:</span> ${
+          profile.nim
+        }</div>
+        <div class="field"><span class="label">Kelas:</span> ${
+          profile.kelas
+        }</div>
+        
+        <div class="field"><span class="label">Keahlian:</span> ${profile.keahlian
+          .map((k) => `<span class="skill">${k}</span>`)
+          .join("")}</div>
+        <div class="field"><span class="label">Hobi:</span> ${profile.hobi
+          .map((h) => `<span class="hobby">${h}</span>`)
+          .join("")}</div>
+      </div>
+      </div>
     </div>
     `
     )
